@@ -88,11 +88,11 @@ func getRabbitMQChannel() *amqp.Channel {
 	var err error
 
 	for i := 0; i < 10; i++ {
-		conn, err = amqp.Dial("amqp://guest:guest@rabbitmq:15672/")
+		conn, err = amqp.Dial("amqp://guest:guest@rabbitmq")
 		if err == nil {
 			break
 		}
-		log.Printf("Failed to connect to RabbitMQ: %s, retrying...\", err")
+		log.Printf("Failed to connect to RabbitMQ: %s, retrying...PEDRO3\", err")
 		time.Sleep(5 * time.Second)
 	}
 	if err != nil {

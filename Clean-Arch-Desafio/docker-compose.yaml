@@ -30,7 +30,7 @@ services:
       - db_data:/var/lib/mysql
 
   rabbitmq:
-    image: rabbitmq:3-management
+    image: rabbitmq:management
     container_name: rabbitmq
     restart: always
     ports:

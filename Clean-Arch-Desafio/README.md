@@ -9,5 +9,5 @@ Seguir os passos abaixo:
 Este projeto contem os serviços nas seguintes portas:
 
 - **API    :** http://localhost:8000/order
-- **GRPC   :** Porta 50051
 - **GraphQL:** http://localhost:8080/
+- **GRPC   :** Porta 50051
